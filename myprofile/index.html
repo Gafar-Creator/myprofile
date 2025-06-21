@@ -1,70 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Admin Dashboard | Korsat X Parmaga</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdul Gafar Personal Website</title>
-</head>
+  <body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+  <div class="navigation">
+    <ul>
+      <li>
+        <a href="#">
+          <span class="icon">
+            <ion-icon name="business-outline"></ion-icon>
+          </span>
+          <span class="title">PT.BPSA</span>
+        </a>
+      </li>
 
-<body>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="cv-dian.pdf">Download CV</a> |
-        <a href="contact.html">Contact</a> |
-        <a href="about.html">About me</a>
-    </nav>
+      <li>
+        <a href="#">
+          <span class="icon">
+            <ion-icon name="home-outline"></ion-icon>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
 
-    <hr />
+      <li>
+        <a href="#">
+          <span class="icon">
+            <ion-icon name="cube-outline"></ion-icon>
+          </span>
+          <span class="title">Kategori Barang</span>
+        </a>
+      </li>
 
-    <header style="text-align: center;">
-        <img src="afan1.jpg" width="200" height="200" style="border-radius: 50%;"/>
-        <h1>Abdul Gafar</h1>
-        <p>(Web Developer)</p>
-    </header>
+      <li>
+        <a href="#">
+          <span class="icon">
+            <ion-icon name="cube-outline"></ion-icon>
+          </span>
+          <span class="title">Barang</span>
+        </a>
+      </li>
 
-    <hr />
+      <li>
+        <a href="#">
+          <span class="icon">
+            <ion-icon name="pricetag-outline"></ion-icon>
+          </span>
+          <span class="title">Ubah Harga Barang</span>
+        </a>
+      </li>
 
-    <article style="text-align: center;">
-        <h2>Overview</h2>
-        <p>
-            Hi, saya adalah web developer yang berdomisisli di Jakarta.
-            Saat ini sedang belajar HTML di Petnai Kode
-        </p>
-    </article>
+      <li>
+        <a href="#">
+          <span class="icon">
+            <ion-icon name="document-text-outline"></ion-icon>
+          </span>
+          <span class="title">PO</span>
+        </a>
+      </li>
 
-    <div style="max-width: 600px; margin: 3em auto">
-        <table border="1" width="100%">
-            <thead>
-                <tr>
-                    <th>Skill</th>
-                    <th>Pengalaman</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <ul>
-                            <li>HTML (Expert)</li>
-                            <li>CSS (Beginner)</li>
-                            <li>Javascript (Beginner)</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>Freelancer di Internet</li>
-                            <li>Leaeder Local Linux Community</li>
-                            <li>Leaeder Local Linux Community</li>
-                        </ul>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+      <li>
+        <a href="#">
+          <span class="icon">
+            <ion-icon name="people-outline"></ion-icon>
+          </span>
+          <span class="title">Supplier</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <span class="icon">
+            <ion-icon name="bar-chart-outline"></ion-icon>
+          </span>
+          <span class="title">Laporan</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+      <!-- ========================= Main ==================== -->
+      <div class="main">
+        <div class="topbar">
+          <div class="toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+
+          <div class="search">
+            <label>
+              <input type="text" placeholder="Search here" />
+              <ion-icon name="search-outline"></ion-icon>
+            </label>
+          </div>
+
+          <div class="user">
+            <img src="assets/imgs/customer01.jpg" alt="User" />
+          </div>
+        </div>
+
+        <!-- ======================= Cards ================== -->
+        <div class="cardBox">
+          <div class="card">
+            <div>
+              <div class="numbers">1,504</div>
+              <div class="cardName">Daily Views</div>
+            </div>
+            <div class="iconBx">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <div class="numbers">80</div>
+              <div class="cardName">Sales</div>
+            </div>
+            <div class="iconBx">
+              <ion-icon name="cart-outline"></ion-icon>
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <div class="numbers">284</div>
+              <div class="cardName">Comments</div>
+            </div>
+            <div class="iconBx">
+              <ion-icon name="chatbubbles-outline"></ion-icon>
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <div class="numbers">$7,842</div>
+              <div class="cardName">Earning</div>
+            </div>
+            <div class="iconBx">
+              <ion-icon name="cash-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <!-- End of cardBox -->
+      </div>
+      <!-- End of Main -->
     </div>
+    <!-- End of Container -->
 
-    <hr>
-    <footer style="text-align: center;">
-        <p>Copyright &copy; 2020 Abdul Gafar.</p>
-    </footer>
-</body>
+    <!-- =========== Scripts =========  -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
